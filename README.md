@@ -74,7 +74,7 @@ If you prefer to run the project on your own machine:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://www.kaggle.com/code/grimmjowj/riceclassifier
+    git clone https://github.com/FAIengineer/Rice-Image-Classification-with-PyTorch-EfficientNet
     ```
 2.  **Install Dependencies:**
     ```bash
