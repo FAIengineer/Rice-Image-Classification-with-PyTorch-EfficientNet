@@ -76,7 +76,7 @@ If you prefer to run the project on your own machine:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [Your_Repo_URL]
+    git clone https://www.kaggle.com/code/grimmjowj/riceclassifier
     ```
 2.  **Install Dependencies:**
     ```bash
