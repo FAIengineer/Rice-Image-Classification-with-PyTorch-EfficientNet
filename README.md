@@ -7,6 +7,8 @@
 ## 📋 Project Overview
 This project implements an end-to-end Deep Learning pipeline to classify rice grains into 5 distinct varieties (Arborio, Basmati, Ipsala, Jasmine, Karacadag).
 
+**Development Environment:** To optimize training performance and overcome local hardware limitations (lack of a dedicated GPU), this project was executed in a **Kaggle Notebook**, utilizing cloud-based **GPU acceleration** for efficient model training.
+
 By leveraging **Transfer Learning** with `EfficientNet-B0`, the model achieved a test accuracy of **99.91%**. While the architectural pattern was inspired by a card classification tutorial, this project adapts that workflow to a biological dataset, requiring changes to the data loading pipeline and model tuning to distinguish between fine-grained visual features of rice.
 
 ## 🧠 Key Technical Skills Demonstrated
