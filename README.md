@@ -56,7 +56,7 @@ This project was architecturally inspired by [Rob Mulla's Card Classifier tutori
 
 ## 🔗 Project Links
 
-* **🚀 Live Demo:** [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)]((https://www.kaggle.com/code/grimmjowj/riceclassifier)
+* **🚀 Live Demo:** [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/grimmjowj/riceclassifier)
 * **Dataset:** [Rice Image Dataset (Kaggle)](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset)
 * **Original Inspiration:** [Rob Mulla's Card Classifier](https://www.kaggle.com/code/robikscube/train-your-first-pytorch-model-card-classifier)
 
