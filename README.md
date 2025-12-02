@@ -39,13 +39,11 @@ The model achieved an exceptional **99.91% accuracy** on the test set.
 *> The graph below demonstrates the model's convergence over 5 epochs, showing no signs of overfitting.*
 
 ![Loss Curve](images/loss_curve.png)
-*(Note: Replace `images/loss_curve.png` with your actual plot image file)*
 
 ### Model Predictions
-*> Random samples from the test set with confidence scores.*
+*> Random samples from the test set with class predictions.*
 
 ![Prediction Sample](images/prediction_sample.png)
-*(Note: Replace `images/prediction_sample.png` with your actual prediction image file)*
 
 ## 🔗 Credits & Adaptation Notes
 This project was architecturally inspired by [Rob Mulla's Card Classifier tutorial](https://www.youtube.com/watch?v=tHL5STNJKag). However, this implementation represents a **domain adaptation** from object detection (cards) to biological classification (grains).
