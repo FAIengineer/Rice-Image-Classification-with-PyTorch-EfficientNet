@@ -62,7 +62,29 @@ This project was architecturally inspired by [Rob Mulla's Card Classifier tutori
 
 ---
 
-### 💻 How to Run
-1.  Clone the repository.
-2.  Install dependencies: `pip install torch torchvision timm pandas numpy matplotlib tqdm`.
-3.  Run the notebook `riceclassifier.ipynb`.
+## 💻 How to Run
+
+### Option 1: Run in Cloud
+The easiest way to reproduce the results is via the live Kaggle Notebook, which comes pre-configured with the dataset and GPU environment.
+
+1.  Click the **Open in Kaggle** badge in the "Project Links" section above.
+2.  Once in Kaggle, click **"Copy & Edit"** (top right) to create your own interactive session.
+3.  Run all cells to execute the training and visualization loop.
+
+### Option 2: Run Locally
+If you prefer to run the project on your own machine:
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [Your_Repo_URL]
+    ```
+2.  **Install Dependencies:**
+    ```bash
+    pip install torch torchvision timm pandas numpy matplotlib tqdm
+    ```
+3.  **Download Dataset:**
+    Download the [Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset) and extract it to your project folder.
+4.  **Update Paths:**
+    *Open the notebook and modify the `train_folder` and `test_folder` variables to point to your local dataset directory instead of the default Kaggle input paths.*
+5.  **Execute:**
+    Run the `rice_classifier.ipynb` notebook.
